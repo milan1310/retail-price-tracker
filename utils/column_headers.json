@@ -1,0 +1,358 @@
+{
+  "amazon3p": [
+    {
+      "name": "asin",
+      "type": "String"
+    },
+    {
+      "name": "title",
+      "type": "String"
+    },
+    {
+      "name": "price",
+      "type": "Integer"
+    },
+    {
+      "name": "shipped_from",
+      "type": "String"
+    },
+    {
+      "name":"sold_by",
+      "type":"String"
+    }
+  ] ,
+  "amazon3p_db":[
+    {
+      "name":"product_id",
+      "type":"String"
+    },
+    {
+      "name":"seller_id",
+      "type":"Integer"
+    },
+    {
+      "name":"price_date",
+      "type":"Date"
+    },
+    {
+      "name":"price_time",
+      "type":"String"
+    },
+    {
+      "name":"list_price",
+      "type":"Float"
+    },
+    {
+      "name":"currency",
+      "type":"String"
+    }
+  ],
+  "walmart3p": [
+    {
+      "name": "asin",
+      "type": "String"
+    },
+    {
+      "name": "title",
+      "type": "String"
+    },
+    {
+      "name": "price",
+      "type": "Integer"
+    },
+    {
+      "name": "shipped_from",
+      "type": "String"
+    },
+    {
+      "name":"sold_by",
+      "type":"String"
+    },
+    {
+      "name":"seller_store_url",
+      "type":"String"
+    }
+  ] ,
+  "walmart3p_db":[
+    {
+      "name":"product_id",
+      "type":"String"
+    },
+    {
+      "name":"seller_id",
+      "type":"Integer"
+    },
+    {
+      "name":"price_date",
+      "type":"Date"
+    },
+    {
+      "name":"price_time",
+      "type":"String"
+    },
+    {
+      "name":"list_price",
+      "type":"Float"
+    },
+    {
+      "name":"currency",
+      "type":"String"
+    }
+  ],
+  "amazonpdp": [
+    {
+      "name": "asin_number",
+      "type": "String"
+    },
+    {
+      "name": "brand",
+      "type": "String"
+    },
+    {
+      "name": "bulletings",
+      "type": "String"
+    },
+    {
+      "name": "buy_box_winner",
+      "type": "Boolean"
+    },
+    {
+      "name": "is_aplus",
+      "type": "Boolean"
+    },
+    {
+      "name": "is_variation",
+      "type": "Boolean"
+    },
+    {
+      "name": "num_images",
+      "type": "Integer"
+    },
+    {
+      "name": "price",
+      "type": "Float"
+    },
+    {
+      "name": "product_description",
+      "type": "String"
+    },
+    {
+      "name": "product_url",
+      "type": "String"
+    },
+    {
+      "name": "title",
+      "type": "String"
+    },
+    {
+      "name": "total_rating",
+      "type": "String"
+    }
+  ],
+  "amazonpdp_db": [
+    {
+      "name": "product_id",
+      "type": "String"
+    },
+    {
+      "name": "product_name",
+      "type": "String"
+    },
+    {
+      "name": "description",
+      "type": "String"
+    },
+    {
+      "name": "bulleting",
+      "type": "String"
+    },
+    {
+      "name": "buy_box_winner",
+      "type": "String"
+    },
+    {
+      "name": "is_aplus",
+      "type": "String"
+    },
+    {
+      "name": "is_variation",
+      "type": "String"
+    },
+    {
+      "name": "num_images",
+      "type": "Integer"
+    },
+    {
+      "name": "list_price",
+      "type": "Float"
+    },
+    {
+      "name": "rating",
+      "type": "Float"
+    },
+    {
+      "name": "brand",
+      "type": "String"
+    }
+  ],
+  "autozonepdp":[
+    {
+      "name":"asin",
+      "type":"String"
+    },
+    {
+      "name":"name",
+      "type":"String"
+    },
+    {
+      "name":"brand",
+      "type":"String"
+    },
+    {
+      "name":"price",
+      "type":"Float"
+    },
+    {
+      "name":"description",
+      "type":"String"
+    }
+  ],
+  "autozonepdp_db":[
+    {
+      "name":"product_id",
+      "type":"String"
+    },
+    {
+      "name":"product_name",
+      "type":"String"
+    },
+    {
+      "name":"description",
+      "type":"String"
+    },
+    {
+      "name":"list_price",
+      "type":"Float"
+    },
+    {
+      "name":"brand",
+      "type":"String"
+    }
+  ],
+  "advanceautopartspdp":[
+    {
+      "name":"asin",
+      "type":"String"
+    },
+    {
+      "name":"name",
+      "type":"String"
+    },
+    {
+      "name":"review_count",
+      "type":"String"
+    },
+    {
+      "name":"description",
+      "type":"String"
+    },
+    {
+      "name":"price",
+      "type":"Float"
+    }
+  ],
+  "advanceautopartspdp_db":[
+    {
+      "name":"product_id",
+      "type":"String"
+    },
+    {
+      "name":"product_name",
+      "type":"String"
+    },
+    {
+      "name":"description",
+      "type":"String"
+    },
+    {
+      "name":"list_price",
+      "type":"Float"
+    },
+    {
+      "name": "rating",
+      "type": "Float"
+    }
+  ],
+  "walmartpdp": [
+    {
+      "name": "brand",
+      "type": "String"
+    },
+    {
+      "name": "description",
+      "type": "String"
+    },
+    {
+      "name": "image_count",
+      "type": "Integer"
+    },
+    {
+      "name": "is_variation",
+      "type": "Boolean"
+    },
+    {
+      "name": "price",
+      "type": "String"
+    },
+    {
+      "name": "product_id",
+      "type": "String"
+    },
+    {
+      "name": "product_url",
+      "type": "String"
+    },
+    {
+      "name": "rating",
+      "type": "String"
+    },
+    {
+      "name": "title",
+      "type": "String"
+    }
+  ],
+  "walmartpdp_db": [
+    {
+      "name": "product_id",
+      "type": "String"
+    },
+    {
+      "name": "product_name",
+      "type": "String"
+    },
+    {
+      "name": "description",
+      "type": "String"
+    },
+    {
+      "name": "is_variation",
+      "type": "String"
+    },
+    {
+      "name": "num_images",
+      "type": "Integer"
+    },
+    {
+      "name": "list_price",
+      "type": "Float"
+    },
+    {
+      "name": "rating",
+      "type": "Float"
+    },
+    {
+      "name": "brand",
+      "type": "String"
+    }
+  ]
+}

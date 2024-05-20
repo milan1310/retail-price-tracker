@@ -1,0 +1,167 @@
+{
+  "amazon3p": {
+    "file_name": "amazon3p",
+    "df_columns": [
+      "price_date",
+      "price_time"
+    ],
+    "df_rename": {
+      "asin":"product_id",
+      "price":"list_price",
+      "sold_by":"seller_name",
+      "shipped_from":"supplier_name"
+    },
+    "df_reindex": [
+      "product_id",
+      "seller_id",
+      "price_date",
+      "price_time",
+      "list_price",
+      "currency"
+    ],
+    "marketplace_name":"Amazon",
+    "table_name": "dim_price",
+    "expected_columns_table": "amazon3p",
+    "database_column_validation_table": "amazon3p_db",
+    "delete_column_name": [
+      "seller_name",
+      "supplier_name"
+    ]
+  },
+  "walmart3p": {
+    "file_name": "walmart3p",
+    "df_columns": [
+      "price_date",
+      "price_time"
+    ],
+    "df_rename": {
+      "asin":"product_id",
+      "price":"list_price",
+      "sold_by":"seller_name",
+      "shipped_from":"supplier_name"
+    },
+    "df_reindex": [
+      "product_id",
+      "seller_id",
+      "price_date",
+      "price_time",
+      "list_price",
+      "currency"
+    ],
+    "marketplace_name":"Walmart",
+    "table_name": "dim_price",
+    "expected_columns_table": "walmart3p",
+    "database_column_validation_table": "walmart3p_db",
+    "delete_column_name": [
+      "seller_name",
+      "supplier_name"
+    ]
+  },
+  "amazonpdp": {
+    "file_name": "amazonpdp",
+    "df_columns": [
+    ],
+    "df_rename": {
+      "asin_number":"product_id",
+      "title":"product_name",
+      "price":"list_price",
+      "total_rating":"rating",
+      "product_description":"description",
+      "bulletings":"bulleting"
+    },
+    "df_reindex": [
+      "product_id",
+      "product_name",
+      "description",
+      "bulleting",
+      "buy_box_winner",
+      "is_aplus",
+      "is_variation",
+      "num_images",
+      "list_price",
+      "rating",
+      "brand"
+    ],
+    "marketplace_name":"Amazon",
+    "table_name": "dim_product",
+    "expected_columns_table": "amazonpdp",
+    "database_column_validation_table": "amazonpdp_db",
+    "delete_column_name": [
+      "product_url"
+    ]
+  },
+  "autozonepdp":{
+    "file_name": "autozonepdp",
+    "df_columns": [
+    ],
+    "df_rename": {
+      "asin":"product_id",
+      "name":"product_name",
+      "price":"list_price"
+    },
+    "df_reindex": [
+      "product_id",
+      "product_name",
+      "description",
+      "list_price",
+      "brand"
+    ],
+    "marketplace_name":"Autozone",
+    "table_name": "dim_product",
+    "expected_columns_table": "autozonepdp",
+    "database_column_validation_table": "autozonepdp_db",
+    "delete_column_name": [
+    ]
+  },
+  "advanceautopartspdp":{
+    "file_name": "advanceautopartspdp",
+    "df_columns": [
+    ],
+    "df_rename": {
+      "asin":"product_id",
+      "name":"product_name",
+      "price":"list_price",
+      "review_count":"rating"
+    },
+    "df_reindex": [
+      "product_id",
+      "product_name",
+      "description",
+      "list_price",
+      "rating"
+    ],
+    "marketplace_name":"Advanceautoparts",
+    "table_name": "dim_product",
+    "expected_columns_table": "advanceautopartspdp",
+    "database_column_validation_table": "advanceautopartspdp_db",
+    "delete_column_name": [
+    ]
+  },
+  "walmartpdp": {
+    "file_name": "walmartpdp",
+    "df_columns": [
+    ],
+    "df_rename": {
+      "title":"product_name",
+      "price":"list_price",
+      "image_count":"num_images"
+    },
+    "df_reindex": [
+      "product_id",
+      "product_name",
+      "description",
+      "is_variation",
+      "num_images",
+      "list_price",
+      "rating",
+      "brand"
+    ],
+    "marketplace_name":"Walmart",
+    "table_name": "dim_product",
+    "expected_columns_table": "walmartpdp",
+    "database_column_validation_table": "walmartpdp_db",
+    "delete_column_name": [
+      "product_url"
+    ]
+  }
+}
