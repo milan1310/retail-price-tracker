@@ -67,5 +67,5 @@ urllib3==2.2.1
 vine==5.1.0
 w3lib==2.1.2
 wcwidth==0.2.13
-Werkzeug==3.0.2
+Werkzeug==3.0.3
 zope.interface==6.3
