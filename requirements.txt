@@ -19,7 +19,7 @@ cryptography==42.0.5
 cssselect==1.2.0
 filelock==3.13.4
 Flask==3.0.2
-Flask-Cors==4.0.0
+Flask-Cors==4.0.1
 Flask-SQLAlchemy==3.1.1
 greenlet==3.0.3
 hyperlink==21.0.0
